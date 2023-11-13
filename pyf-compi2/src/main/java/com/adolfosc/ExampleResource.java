@@ -1,5 +1,6 @@
 package com.adolfosc;
 
+import com.adolfosc.model.Demo;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
@@ -11,7 +12,12 @@ public class ExampleResource {
 
     @GET
     //@Produces(MediaType.APPLICATION_JSON_TYPE)
-    public String hello() {
-        return "TAMFDTS ST";
+    public Response hello() {
+        var dem = new Demo();
+
+        dem.setId(1L);
+        dem.setName("D");
+        dem.setMessage(" te amo");
+        return Response.ok(dem).build();
     }
 }

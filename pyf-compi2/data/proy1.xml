@@ -1,0 +1,41 @@
+<PROYECTO_W>     <NOMBRE_PROYECTO>proy1</NOMBRE_PROYECTO>     <PAQUETE_PRINCIPAL>     <PAQUETES_PAQUETE><PAQUETE>     <NOMBRE_PAQUETE>demo1</NOMBRE_PAQUETE>     <ID_PAQUETE>demo1</ID_PAQUETE>     <PAQUETES_PAQUETE><PAQUETE>     <NOMBRE_PAQUETE>temp</NOMBRE_PAQUETE>     <ID_PAQUETE>demo1.temp</ID_PAQUETE>     <PAQUETES_PAQUETE>     </PAQUETES_PAQUETE>     <ARCHIVOS_PAQUETE><ARCHIVO>     <NOMBRE_ARCHIVO>Pista</NOMBRE_ARCHIVO>     <ID_ARCHIVO>demo1.temp.Pista</ID_ARCHIVO>     <PAQUETE_ARCHIVO>temp</PAQUETE_ARCHIVO>     <CODIGO_ARCHIVO>*!+"@@@"###$$$t o f$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO>     </ARCHIVOS_PAQUETE></PAQUETE>     </PAQUETES_PAQUETE>     <ARCHIVOS_PAQUETE><ARCHIVO>     <NOMBRE_ARCHIVO>Cancion</NOMBRE_ARCHIVO>     <ID_ARCHIVO>demo1.Cancion</ID_ARCHIVO>     <PAQUETE_ARCHIVO>demo1</PAQUETE_ARCHIVO>     <CODIGO_ARCHIVO>*!+"@@@"###$$$e ao fst$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO>     </ARCHIVOS_PAQUETE></PAQUETE><PAQUETE>     <NOMBRE_PAQUETE>demo2</NOMBRE_PAQUETE>     <ID_PAQUETE>demo2</ID_PAQUETE>     <PAQUETES_PAQUETE>     </PAQUETES_PAQUETE>     <ARCHIVOS_PAQUETE><ARCHIVO>     <NOMBRE_ARCHIVO>Musica</NOMBRE_ARCHIVO>     <ID_ARCHIVO>demo2.Musica</ID_ARCHIVO>     <PAQUETE_ARCHIVO>demo2</PAQUETE_ARCHIVO>     <CODIGO_ARCHIVO>*!+"@@@"###$$$%%JAVA
+
+public class Musica {
+	
+	int a = 1;
+
+	int b = 0;
+
+	public void main() {
+		println("hola mundo");
+	}
+	public int audio() {
+		int c = 3;
+		if(c == 3) {
+			c = 1;
+		} else if(c == 1) {
+			c = 2;
+		}
+	}
+}$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO>     </ARCHIVOS_PAQUETE></PAQUETE>     </PAQUETES_PAQUETE>     <ARCHIVOS_PAQUETE><ARCHIVO>     <NOMBRE_ARCHIVO>demo1</NOMBRE_ARCHIVO>     <ID_ARCHIVO>demo1</ID_ARCHIVO>     <PAQUETE_ARCHIVO>proy1</PAQUETE_ARCHIVO>     <CODIGO_ARCHIVO>*!+"@@@"###$$$%%JAVA
+
+public class Clase1 {
+	
+	int a = 1;
+
+	int b = 0;
+	
+	int fts = a + b;
+	
+	public void main() {
+		println("hola mundo");
+		int c = 3;
+		if(c == 3) {
+			c = 1;
+		}
+	}
+	
+	public int casa() {
+		int m = 1 +2;
+	}
+}$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO>     </ARCHIVOS_PAQUETE>     </PAQUETE_PRINCIPAL></PROYECTO_W>
