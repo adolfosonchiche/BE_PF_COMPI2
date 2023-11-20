@@ -8,7 +8,7 @@ import lombok.Data;
  * @author hectoradolfo
  */
 @Data
-public class Declaracion implements Instruccion {
+public class Return implements Instruccion {
     
     @JsonProperty("opr1")
     private String opr1;
@@ -16,18 +16,13 @@ public class Declaracion implements Instruccion {
     private Instruccion opr2;
     @JsonProperty("opr")
     private String opr;
-
+    
     @Override
     public void generarCodigo(ResultadoInstruccion res) {
         this.opr2.generarCodigo(res);
-        System.out.println("or ....>" + opr);
-         System.out.println("valor " + res.getValor());
-         if(this.opr1.equals("")) {
-             res.getCodigo3d().agregarCodigo(res.getValor());
-         } else {
-             res.getCodigo3d().agregarCodigo(opr1+" = "+res.getValor());
-         }
-        
+        System.out.println("opr --> " + opr);
+
+        res.getCodigo3d().agregarCodigo("return " + res.getValor());
     }
     
 }

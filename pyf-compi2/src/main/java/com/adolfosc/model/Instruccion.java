@@ -27,6 +27,8 @@ import lombok.Data;
         @JsonSubTypes.Type(value = Case.class, name = "Case"),
         @JsonSubTypes.Type(value = Default.class, name = "Default"),
         @JsonSubTypes.Type(value = Break.class, name = "Break"),
+        @JsonSubTypes.Type(value = Print.class, name= "Print"),
+        @JsonSubTypes.Type(value = Return.class, name= "Return"),
 })
 
 public interface Instruccion {

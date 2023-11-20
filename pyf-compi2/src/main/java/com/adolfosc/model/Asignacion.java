@@ -18,7 +18,11 @@ public class Asignacion implements Instruccion {
     @Override
     public void generarCodigo(ResultadoInstruccion res) {
         this.opr2.generarCodigo(res);
-        res.getCodigo3d().agregarCodigo(opr1+" = "+res.getValor());
+        if(this.opr1.equals("")) {
+             res.getCodigo3d().agregarCodigo(res.getValor());
+         } else {
+             res.getCodigo3d().agregarCodigo(opr1+" = "+res.getValor());
+         }
     }
     
 }

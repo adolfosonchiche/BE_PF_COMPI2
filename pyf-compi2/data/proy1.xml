@@ -11,28 +11,23 @@ public class Cancion {
 	int b = 0;
 
 	public void main() {
-		println("hola mundo");
+		System.out.println("hola mundo");
 		int m = 10;
 	}
-	public int audio() {
-		int c = 3;
-		if(c == 3) {
-			c = 1;
-		} else if(c == 1) {
-			c = 2;
-		}
-	}
+
 }$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO>     </ARCHIVOS_PAQUETE></PAQUETE>     </PAQUETES_PAQUETE>     <ARCHIVOS_PAQUETE><ARCHIVO>     <NOMBRE_ARCHIVO>demo1</NOMBRE_ARCHIVO>     <ID_ARCHIVO>demo1</ID_ARCHIVO>     <PAQUETE_ARCHIVO>proy1</PAQUETE_ARCHIVO>     <CODIGO_ARCHIVO>*!+"@@@"###$$$
 public class Clase1 {
 	
 	int a = 1;
 
-	int b = 0
+	int b = a;
 	
 	int fts = a + b;
+	//Musica musica = new Musica();
 	
 	public void main() {
-		println("hola mundo");
+		//Musica musica2 = new Musica(j);
+		//System.out.println("hola mundo");
 		
 		int c = 3;
 		if(c == 3) {
@@ -44,5 +39,9 @@ public class Clase1 {
 	
 	public int casa() {
 		int m = 1 +2;
+	}
+	
+	public void setCasa(int a) {
+		a = a;
 	}
 }$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO>     </ARCHIVOS_PAQUETE>     </PAQUETE_PRINCIPAL></PROYECTO_W>

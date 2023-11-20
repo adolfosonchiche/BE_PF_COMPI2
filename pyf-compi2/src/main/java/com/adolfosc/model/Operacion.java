@@ -18,12 +18,22 @@ public class Operacion implements Instruccion {
     private String opr;
     @JsonProperty("resultado")
     private Object resultado;
+    
+
 
     @Override
     public void generarCodigo(ResultadoInstruccion res) {
-        if(this.opr.equals(TipoInstruccion.INT)|this.opr.equals(TipoInstruccion.DOUBLE)|this.opr.equals(TipoInstruccion.BOOLEAN)|this.opr.equals(TipoInstruccion.STRING)|this.opr.equals(TipoInstruccion.ID)|this.opr.equals(TipoInstruccion.CHAR)|this.opr.equals(TipoInstruccion.FLOAT)){
+        if(this.opr.equals(TipoInstruccion.INT)|this.opr.equals(TipoInstruccion.DOUBLE)|
+                this.opr.equals(TipoInstruccion.BOOLEAN)|this.opr.equals(TipoInstruccion.STRING)|
+                this.opr.equals(TipoInstruccion.ID)|this.opr.equals(TipoInstruccion.CHAR)|
+                this.opr.equals(TipoInstruccion.FLOAT)){
+            
             res.setValor(this.resultado.toString());
-        }else{
+            
+        } else if(this.opr.equals(TipoInstruccion.PRINT) | this.opr.equals(TipoInstruccion.RETURN)) {
+           res.setValor(this.resultado.toString());
+            
+        } else{
             this.opr1.generarCodigo(res);
             String res1 = res.getValor();
             this.opr2.generarCodigo(res);

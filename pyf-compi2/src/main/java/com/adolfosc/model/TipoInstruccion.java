@@ -22,4 +22,6 @@ public class TipoInstruccion {
     public static final String ID = "id";
     public static final String BOOLEAN = "boolean";
     public static final String STRING = "String";
+    public static final String PRINT = "print";
+    public static final String RETURN = "return";
 }

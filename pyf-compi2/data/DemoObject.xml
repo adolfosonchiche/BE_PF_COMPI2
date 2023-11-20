@@ -1,0 +1,57 @@
+<PROYECTO_W>     <NOMBRE_PROYECTO>DemoObject</NOMBRE_PROYECTO>     <PAQUETE_PRINCIPAL>     <PAQUETES_PAQUETE><PAQUETE>     <NOMBRE_PAQUETE>pila</NOMBRE_PAQUETE>     <ID_PAQUETE>pila</ID_PAQUETE>     <PAQUETES_PAQUETE><PAQUETE>     <NOMBRE_PAQUETE>Pila</NOMBRE_PAQUETE>     <ID_PAQUETE>pila.Pila</ID_PAQUETE>     <PAQUETES_PAQUETE>     </PAQUETES_PAQUETE>     <ARCHIVOS_PAQUETE>     </ARCHIVOS_PAQUETE></PAQUETE>     </PAQUETES_PAQUETE>     <ARCHIVOS_PAQUETE><ARCHIVO>     <NOMBRE_ARCHIVO>Main</NOMBRE_ARCHIVO>     <ID_ARCHIVO>pila.Main</ID_ARCHIVO>     <PAQUETE_ARCHIVO>pila</PAQUETE_ARCHIVO>     <CODIGO_ARCHIVO>*!+"@@@"###$$$//package proy2.pila;
+@Getter
+@Setter
+public class Main {
+
+	int a = 0;
+	
+	public void main() {
+		a = 12 * 22 - 1;
+		System.out.println("te amo Odra " + "te necesito fatima");
+	    String faty = " te amo";
+	    System.out.println("te amo Odra");
+	    //System.out.print("te necesito fatima");
+	    //System.out.print("te amo Daniela");
+		//System.out.print(faty);
+		
+		for (int i = 0; i < 5; i++) {
+
+            int fa=i + 10;
+            String mensaje = "Odra st";
+        }
+		int dany = 12;
+	
+		int dany1 = 12;
+		System.out.println("te amo Daniela");
+		int faty4 = 12;
+	}
+	
+	
+}$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO><ARCHIVO>     <NOMBRE_ARCHIVO>Pila</NOMBRE_ARCHIVO>     <ID_ARCHIVO>pila.Pila</ID_ARCHIVO>     <PAQUETE_ARCHIVO>pila</PAQUETE_ARCHIVO>     <CODIGO_ARCHIVO>*!+"@@@"###$$$@Getter
+@Setter
+
+public class Pila {
+	
+	/*int c = 1;
+	int f = 1;
+	
+	public void demo() {
+		String b = "te amo Fátima " + "mucho " + "cada dia";
+		//System.out.println(b);
+	}
+	
+	public int getC(){
+		return c;
+	}
+	
+	public int getF(){
+		return f;
+		int a = 0;
+	}
+	
+	public void setC(int c) {
+		c = c;
+	}*/
+}$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO><ARCHIVO>     <NOMBRE_ARCHIVO>Nodo</NOMBRE_ARCHIVO>     <ID_ARCHIVO>pila.Nodo</ID_ARCHIVO>     <PAQUETE_ARCHIVO>pila</PAQUETE_ARCHIVO>     <CODIGO_ARCHIVO>*!+"@@@"###$$$class Nodo {
+	
+}$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO>     </ARCHIVOS_PAQUETE></PAQUETE>     </PAQUETES_PAQUETE>     <ARCHIVOS_PAQUETE>     </ARCHIVOS_PAQUETE>     </PAQUETE_PRINCIPAL></PROYECTO_W>

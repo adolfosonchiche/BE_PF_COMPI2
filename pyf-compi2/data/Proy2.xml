@@ -1,0 +1,129 @@
+<PROYECTO_W>     <NOMBRE_PROYECTO>Proy2</NOMBRE_PROYECTO>     <PAQUETE_PRINCIPAL>     <PAQUETES_PAQUETE>     </PAQUETES_PAQUETE>     <ARCHIVOS_PAQUETE><ARCHIVO>     <NOMBRE_ARCHIVO>Main</NOMBRE_ARCHIVO>     <ID_ARCHIVO>Main</ID_ARCHIVO>     <PAQUETE_ARCHIVO>Proy2</PAQUETE_ARCHIVO>     <CODIGO_ARCHIVO>*!+"@@@"###$$$
+public class Main {
+
+	Pila pila = new Pila();
+
+	public void main() {
+		
+		pila = new Pila(6);
+		
+		pila.desapilar();
+	    pila.apilar("x");
+            pila.apilar("y");
+            pila.apilar("z");
+            String el = pila.desapilar();
+            System.out.println("Desapilando: " + el);
+            if(true) {}
+            pila.apilar("w");
+            pila.apilar("u");
+            pila.apilar("v");
+            pila.apilar("p");
+            el = pila.desapilar();
+            System.out.println("Desapilando: " + el);
+            if(true) {}
+            pila.apilar("o");
+            pila.apilar("q");
+            int size = pila.getSize();
+            System.out.println("size: " + size);
+		 
+	}
+}$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO><ARCHIVO>     <NOMBRE_ARCHIVO>Pila</NOMBRE_ARCHIVO>     <ID_ARCHIVO>Pila</ID_ARCHIVO>     <PAQUETE_ARCHIVO>Proy2</PAQUETE_ARCHIVO>     <CODIGO_ARCHIVO>*!+"@@@"###$$$
+public class Pila {
+    private int size = 0;
+    private String pila1 = "";
+    private String pila2 = "";
+    private String pila3 = "";
+	private String pila4 = "";
+	private String pila5 = "";
+	private String pila6 = "";
+    private int tope = 0;
+    
+
+    
+    public void Pila(int size) {
+        size = size;
+        tope = 0;
+    }
+    
+    public void apilar(String elemento) {
+        if (tope == size) {
+           // System.out.println("La pila esta llena.");
+        } 
+        else if(tope == 0) {
+        		pila1 = elemento;
+				tope = tope +1;
+        	}
+        	
+        	else if(tope == 1) {
+        		pila2 = elemento;
+				tope = tope +1;
+        	}
+        	
+        	else if(tope == 2) {
+        		pila3 = elemento;
+				tope = tope +1;
+        	}
+        	
+        	else if(tope == 3) {
+        		pila4 = elemento;
+				tope = tope +1;
+        	}
+	    	
+	    	else if(tope == 4) {
+        		pila5 = elemento;
+				tope = tope +1;
+        	}
+        	
+        	else if(tope == 5) {
+        		pila6 = elemento;
+				tope = tope +1;
+        	}
+	    
+        
+    }
+    
+    
+    public void desapilar() {
+        if (tope == 0) {
+            //System.out.println("La pila esta vacia, nada que desapilar.");
+        	return "null";
+        }
+        
+        tope = tope -1;
+        String elemento = "";
+        if(tope == 0) {
+        		elemento = pila1;
+        	}
+        	
+        	if(tope == 1) {
+        		elemento = pila2;
+        	}
+        	
+        	else if(tope == 2) {
+        		elemento = pila3;
+        	}
+        	
+        	else if(tope == 3) {
+        		elemento = pila4;
+        	}
+	    	
+	    	else if(tope == 4) {
+        		elemento = pila5;
+        	}
+        	
+        	else if(tope == 5) {
+        		elemento = pila6;
+        	}
+        return elemento;
+        //System.out.print(elemento);
+    }
+    
+    
+     
+     /*public int getSize() {
+    	return size;
+    }*/
+    
+    
+    
+}$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO>     </ARCHIVOS_PAQUETE>     </PAQUETE_PRINCIPAL></PROYECTO_W>

@@ -1,0 +1,64 @@
+<PROYECTO_W>     <NOMBRE_PROYECTO>Lista</NOMBRE_PROYECTO>     <PAQUETE_PRINCIPAL>     <PAQUETES_PAQUETE><PAQUETE>     <NOMBRE_PAQUETE>lista</NOMBRE_PAQUETE>     <ID_PAQUETE>lista</ID_PAQUETE>     <PAQUETES_PAQUETE>     </PAQUETES_PAQUETE>     <ARCHIVOS_PAQUETE><ARCHIVO>     <NOMBRE_ARCHIVO>ListaDoble</NOMBRE_ARCHIVO>     <ID_ARCHIVO>lista.ListaDoble</ID_ARCHIVO>     <PAQUETE_ARCHIVO>lista</PAQUETE_ARCHIVO>     <CODIGO_ARCHIVO>*!+"@@@"###$$$
+
+
+/**
+ *
+ * @author jose
+ */
+public class ListaDoble {
+    //private Nodo primero;
+    //private Nodo ultimo;
+    
+    public void ListaDoble() {
+    	
+    }
+    
+}
+$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO><ARCHIVO>     <NOMBRE_ARCHIVO>Main</NOMBRE_ARCHIVO>     <ID_ARCHIVO>lista.Main</ID_ARCHIVO>     <PAQUETE_ARCHIVO>lista</PAQUETE_ARCHIVO>     <CODIGO_ARCHIVO>*!+"@@@"###$$$public class Main {
+
+	public void main() {
+
+
+        
+	}
+}$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO><ARCHIVO>     <NOMBRE_ARCHIVO>Nodo</NOMBRE_ARCHIVO>     <ID_ARCHIVO>lista.Nodo</ID_ARCHIVO>     <PAQUETE_ARCHIVO>lista</PAQUETE_ARCHIVO>     <CODIGO_ARCHIVO>*!+"@@@"###$$$
+/**
+ *
+ * @author jose
+ */
+public class Nodo {
+    private string contenido;
+    private int siguiente;
+    private int anterior;
+
+/*    public Nodo(String contenido) {
+        this.contenido = contenido;
+    }
+
+    public String getContenido() {
+        return contenido;
+    }
+
+    public void setContenido(String contenido) {
+        this.contenido = contenido;
+    }
+
+    public Nodo getSiguiente() {
+        return siguiente;
+    }
+
+    public void setSiguiente(Nodo siguiente) {
+        this.siguiente = siguiente;
+    }
+
+    public Nodo getAnterior() {
+        return anterior;
+    }
+
+    public void setAnterior(Nodo anterior) {
+        this.anterior = anterior;
+    }
+  */  
+    
+}
+$$$###"@@@"+!*</CODIGO_ARCHIVO></ARCHIVO>     </ARCHIVOS_PAQUETE></PAQUETE>     </PAQUETES_PAQUETE>     <ARCHIVOS_PAQUETE>     </ARCHIVOS_PAQUETE>     </PAQUETE_PRINCIPAL></PROYECTO_W>
